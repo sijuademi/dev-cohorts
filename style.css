@@ -220,7 +220,80 @@ a:link{
     border-radius: 100px;
 }
 .portfolio img{
-    width: 100vw;
+    width: 100vw ;
+}
+.testimonials{
+    width: 70vw;
+    height: 75vh;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    background: chartreuse;
+}
+.testimonials h1{
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 70px;
+    color: #1E266D;
+    padding-bottom: 50px;
+}
+.cards{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.card-1, .card-2, .card-3{
+    /* margin: 20px 15px 0 15px; */
+    background: aquamarine;
+    border: 1px solid rgba(69, 88, 128, 0.2);
+    border-radius: 4px;  
+    width: 430px;
+}
+.cards p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: #455880;
+
+}
+.card-1{
+    /* margin-right: 30px; */
+}
+.card-2{
+    /* margin-right: 30px; */
+}
+.testimonials img{
+    padding-top: 50px;
+}.cards p:first-child{
+    line-height: 40px;
+    font-size: 20px;
+    color: #455880;
+    padding: 20px;
+    height: 240px;
+}
+.cards h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;   
+    color: #1E266D;
+    padding-top: 30px;
+
+}
+.cards p:last-child{
+    font-family: Halyard Text;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 180%;
+/* or 32px */
+
+text-align: center;
+
+color: #455880;
+
 }
 
 
