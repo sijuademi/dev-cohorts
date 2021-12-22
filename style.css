@@ -396,7 +396,8 @@ footer .flex{
 }
 .digits img{
     width: 70px;
-    height: 26px;margin-bottom: 34px;
+    height: 26px;
+    margin-bottom: 34px;
 }
 .digits p{
     font-family: 'Poppins' sans-serif;
@@ -497,4 +498,194 @@ footer .flex{
     font-size: 14px;
     color: #455880;
     padding-left: 20px;
+}
+@media only screen and (max-width:425px) {
+    header{
+        width: 100%;
+        height: 82px;
+        /* background-color: blue; */
+        /* display: none; */
+    }
+    nav{
+        display: none;
+    }
+    header .logo{
+        margin-left: 10px;
+    }
+    .contact h3{
+        display: none;
+    }
+    .hero{
+        width: 100%;
+        height: 900px;
+        /* background-color: yellow; */
+    }
+    .hero h1{
+        font-size: 40px;
+        padding-top: 20px;
+        padding-left: 5px;
+    }
+    .hero p{
+        margin-top: 50px;
+    }
+    .btn{
+        display: block;
+        background-color: blue;
+    }
+    .btn .btn-1{
+        position: absolute;
+        width: 120px;
+        left: -500px;
+    }
+    .btn-2{
+        position: absolute;
+        width: 100px;
+        left: 70px;
+        top: 550px;
+    }
+    .btn +img{
+        /* position: relative; */
+        left: 5px;
+        width: 390px;
+        margin-top: -40px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .logos{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 180px 180px;
+        margin: 20px 0 0px 10px;
+        padding-right: 30px;
+        grid-template-rows: 80px 80px 80px 80px;
+    }
+    .disney{
+        margin-left: 90px;
+        /* width: 200px; */
+    }
+    .about{
+        width: 100%;
+        margin-top: 350px;
+        height: 1300px;
+        /* display: block; */
+        /* background-color: yellow; */
+    }
+    .about h1{
+        width: 350px;
+        margin: auto;
+        margin-bottom: 20px;
+        font-size: 40px;      
+    }
+    .about-1{
+        display: block;
+    }
+    .about .left img{
+        width: 365px;
+        margin-bottom: 0;
+        /* display: block; */
+    }
+    .right{
+        margin-top: -200px;
+        margin-left: 5px;
+        /* margin-bottom: ; */
+    }
+    .portfolio{
+        height: 860px;
+    }
+    .portfolio h1{
+        width: 100%;
+        padding-top: 80px;
+        margin-bottom: 200px;
+    }
+    .portfolio p{
+        width: 100%;
+        margin-bottom: 200px;
+    }
+    .portfolio button{
+        margin-bottom: 100px;
+    }
+    .testimonials{
+        width: 100%;
+        height: 1600px;
+        margin-top: 130px;
+    }
+    .cards{
+        /* background-color: yellow; */
+        display: block;
+    }
+    .card-2, .card-3{
+        margin-top: 20px;
+    }
+    .card-2{
+        margin-left: 0;
+    }
+    .cta{
+        width: 100%;
+        height: 70vh;
+        display: block;
+    }
+    .cta h1{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .cta .left{
+        top: 6000px;
+        left: 50px;
+    }
+    .left button{
+        margin-left: 20px;
+    }
+    footer{
+        width: 100%;
+    }
+    footer .flex{
+        display: block;
+    }
+    .digits{
+        margin-left: 7px;
+        width: 360px;
+        /* clear: right; */
+    }
+    .digits p{
+        font-size: 23px;
+    }
+    .digits img{
+        margin-left: 140px;
+    }
+    .pages{
+        position: absolute;
+        width: 180px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+    .demos{
+        position:relative;
+        left: 170px;
+        top: 0;
+        width: 180px;
+        /* margin-right: 10px; */
+        text-align: right;
+    }
+    .resources{
+        margin-left: 80px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .bottom{
+        width: 100%;
+        margin-top: 20px;
+        display: block;
+    }
+    .bottom .left{
+        margin-left: 70px;
+    }
+    .bottom .right{
+        margin-left: 45px;
+        margin-top: 30px;
+        justify-content: left;
+    }
+
 }
