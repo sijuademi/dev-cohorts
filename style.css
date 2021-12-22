@@ -477,7 +477,6 @@ footer .flex{
     margin: auto;
     margin-top: 77px;
     border-top: 1px solid rgba(135, 146, 161, 0.08);
-    /* align-items: center; */
 }
 .bottom .left{
     margin-top: 53px;
@@ -503,8 +502,6 @@ footer .flex{
     header{
         width: 100%;
         height: 82px;
-        /* background-color: blue; */
-        /* display: none; */
     }
     nav{
         display: none;
@@ -518,7 +515,6 @@ footer .flex{
     .hero{
         width: 100%;
         height: 900px;
-        /* background-color: yellow; */
     }
     .hero h1{
         font-size: 40px;
@@ -544,7 +540,6 @@ footer .flex{
         top: 550px;
     }
     .btn +img{
-        /* position: relative; */
         left: 5px;
         width: 390px;
         margin-top: -40px;
@@ -562,14 +557,11 @@ footer .flex{
     }
     .disney{
         margin-left: 90px;
-        /* width: 200px; */
     }
     .about{
         width: 100%;
         margin-top: 350px;
         height: 1300px;
-        /* display: block; */
-        /* background-color: yellow; */
     }
     .about h1{
         width: 350px;
@@ -583,12 +575,10 @@ footer .flex{
     .about .left img{
         width: 365px;
         margin-bottom: 0;
-        /* display: block; */
     }
     .right{
         margin-top: -200px;
         margin-left: 5px;
-        /* margin-bottom: ; */
     }
     .portfolio{
         height: 860px;
@@ -611,7 +601,6 @@ footer .flex{
         margin-top: 130px;
     }
     .cards{
-        /* background-color: yellow; */
         display: block;
     }
     .card-2, .card-3{
@@ -646,7 +635,6 @@ footer .flex{
     .digits{
         margin-left: 7px;
         width: 360px;
-        /* clear: right; */
     }
     .digits p{
         font-size: 23px;
@@ -666,7 +654,6 @@ footer .flex{
         left: 170px;
         top: 0;
         width: 180px;
-        /* margin-right: 10px; */
         text-align: right;
     }
     .resources{
