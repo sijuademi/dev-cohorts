@@ -13,7 +13,7 @@ header {
 header .logo {
   width: 80.97px;
   height: 27.95px;
-  margin-left: 230px;
+  margin-left: 210px;
   margin-top: 28px;
 }
 .links {
@@ -22,15 +22,16 @@ header .logo {
 header nav li {
   list-style-type: none;
   display: inline;
-  padding-right: 30px;
-  font-size: 16px;
+  padding-right: 42px;
 }
-nav li a {
+.links li a {
   text-decoration: none;
+  font-size: 14px;
   line-height: 80px;
-  font-weight: 400;
+  font-weight: 600;
   justify-content: space-between;
   font-family: 'Poppins', sans-serif;
+  color: #1e266d;
 }
 .contact {
   margin-right: 200px;
@@ -44,10 +45,11 @@ nav li a {
 .contact h3 {
   width: 163px;
   height: 80px;
-  font-size: 16px;
+  font-size: 18px;
   text-align: right;
-  font-weight: 500;
+  font-weight: 550;
   line-height: 80px;
+  color: #1e266d;
 }
 a:link {
   color: black;
@@ -55,6 +57,7 @@ a:link {
 .contact .btn {
   width: 113px;
   height: 40px;
+  font-size: 16px;
   margin-top: 22px;
   border-radius: 20px;
   line-height: 40px;
@@ -65,8 +68,8 @@ button {
   border: none;
 }
 .hero {
-  height: 1012px;
-  width: 1600px;
+  height: 860px;
+  width: 100vw;
   background: linear-gradient(
     180deg,
     rgba(242, 249, 255, 0.12) 0%,
@@ -79,7 +82,7 @@ button {
   font-style: normal;
   font-weight: 600;
   font-size: 56px;
-  line-height: 59px;
+  line-height: 62px;
   text-align: center;
   color: #1e266d;
   padding: auto;
@@ -88,27 +91,35 @@ button {
 .hero p {
   height: 27px;
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 550;
   line-height: 27px;
   text-align: center;
   color: #455880;
   padding-top: 145px;
 }
-.btn {
-  margin-top: 70px;
+.hero .btn {
+  margin-top: 57px;
+  margin-left: 610px;
 }
 .btn .btn-1 {
-  width: 148px;
+  width: 150px;
   height: 50px;
-  margin-left: 620px;
+  font-size: 16px;
   border-radius: 25px;
   background: #3751ff;
+  color: #ffffff;
 }
 .btn .btn-2 {
-  width: 199px;
+  width: 200px;
   height: 50px;
-  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 550px;
+  margin-left: 20px;
   border-radius: 25px;
+  color: #455880;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.05);
 }
 .btn + img {
   position: absolute;
@@ -120,12 +131,13 @@ button {
 .logo {
   width: 1180px;
   height: 112px;
-  margin: 40px auto;
+  margin: 200px auto 40px auto;
 }
 .logo h3 {
   height: 27px;
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
+
   line-height: 27px;
   text-align: center;
   color: rgba(69, 88, 128, 0.5);
@@ -154,33 +166,71 @@ button {
 }
 .about h1 {
   font-family: 'Popppins', sans-serif;
-  width: 1214px;
+  width: 1200px;
   height: 120px;
   font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 70px;
+  /* margin-right: auto; */
+  margin-left: 35px;
   text-align: center;
   color: #1e266d;
+  word-spacing: -4px;
 }
 .about-1 {
   display: flex;
 }
-.left img {
+.about-1 .left {
   width: 611px;
   height: 932px;
+}
+.woman {
+  position: absolute;
+  top: 1420px;
+  left: 407px;
+}
+.rectangle {
+  position: absolute;
+  top: 1895px;
+  left: 713px;
+  z-index: -1;
+}
+.man-2 {
+  position: absolute;
+  top: 1930px;
+  left: 233px;
+}
+.ellipse {
+  position: absolute;
+  top: 2075px;
+  left: 205px;
+  z-index: -1;
+}
+.man-1 {
+  position: absolute;
+  top: 2063px;
+  left: 443px;
+}
+.vector {
+  position: absolute;
+  top: 2285px;
+  left: 611px;
+  z-index: -1;
 }
 .about-1 .left {
   flex: 40%;
   margin-top: -100px;
 }
-.right {
-  margin-top: 100px;
+.about-1 .right {
+  position: absolute;
+  top: 1640px;
+  left: 984px;
 }
 .right h4 {
   padding-bottom: 20px;
   font-family: 'Poppins', sans-serif;
-  font-size: 23px;
+  font-size: 20px;
   line-height: 27px;
   height: 59px;
   color: #1e266d;
@@ -189,7 +239,8 @@ button {
   font-family: 'Poppins', sans-serif;
   width: 300px;
   height: 134px;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 600;
   line-height: 27px;
   color: #455880;
 }
@@ -203,14 +254,15 @@ button {
 }
 .right div img {
   float: left;
-  padding-right: 30px;
+  padding-right: 47px;
 }
 
 .portfolio {
+  width: 100vw;
   background: #fff9ea;
   text-align: center;
-  height: 1001px;
-  margin-top: 200px;
+  height: 1012px;
+  margin-top: 150px;
 }
 .portfolio h1 {
   font-family: 'poppins', sans-serif;
@@ -230,11 +282,11 @@ button {
   font-family: 'Poppins', sans-serif;
   font-size: 21px;
   font-weight: 400;
-  line-height: 31px;
+  line-height: 35px;
   text-align: center;
   color: #455880;
   padding-top: 40px;
-  margin: 50px auto;
+  margin: 60px auto;
 }
 .portfolio button {
   width: 148px;
@@ -244,18 +296,66 @@ button {
   line-height: 16px;
   display: flex;
   padding-left: 33px;
-  margin: auto;
-  margin-top: 80px;
+  margin: 80px auto 35px auto;
   align-items: center;
   text-align: center;
   color: #ffffff;
   background: #3751ff;
   border-radius: 100px;
 }
-.portfolio img {
+.portfolio .images {
   width: 100vw;
 }
-
+.relative {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 0px;
+}
+.portfolio .one {
+  position: absolute;
+  left: 0px;
+}
+.portfolio .two {
+  position: relative;
+  left: 210px;
+  top: 115px;
+}
+.portfolio .six {
+  position: relative;
+  top: -35px;
+  left: -95px;
+}
+.portfolio .seven {
+  position: relative;
+  top: -16px;
+  left: -430px;
+}
+.portfolio .six {
+  position: relative;
+  top: -35px;
+  left: -95px;
+}
+.portfolio .three {
+  position: relative;
+  top: 175px;
+  left: 175px;
+}
+.portfolio .eight {
+  position: relative;
+  top: -15px;
+  left: -460px;
+}
+.portfolio .nine {
+  position: relative;
+  top: -15px;
+  left: -497px;
+}
+.portfolio .four {
+  position: relative;
+  top: 240px;
+  left: 145px;
+}
 .testimonials {
   width: 1179px;
   height: 583px;
@@ -263,6 +363,7 @@ button {
   margin-top: 210px;
   text-align: center;
 }
+
 .testimonials h1 {
   font-family: 'poppins', sans-serif;
   font-weight: 600;
