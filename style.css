@@ -268,8 +268,8 @@ button {
   font-family: 'poppins', sans-serif;
   width: 1178px;
   height: 60px;
-  font-weight: 600;
-  font-size: 45px;
+  font-weight: 700;
+  font-size: 40px;
   line-height: 60px;
   padding-top: 140px;
   text-align: center;
@@ -324,37 +324,52 @@ button {
 .portfolio .six {
   position: relative;
   top: -35px;
-  left: -95px;
+  left: -96px;
 }
 .portfolio .seven {
   position: relative;
   top: -16px;
-  left: -430px;
+  left: -431px;
 }
 .portfolio .six {
   position: relative;
   top: -35px;
-  left: -95px;
+  left: -96px;
 }
 .portfolio .three {
   position: relative;
   top: 175px;
-  left: 175px;
+  left: 174px;
 }
 .portfolio .eight {
   position: relative;
   top: -15px;
-  left: -460px;
+  left: -461px;
 }
 .portfolio .nine {
   position: relative;
   top: -15px;
-  left: -497px;
+  left: -498px;
 }
 .portfolio .four {
   position: relative;
-  top: 240px;
-  left: 145px;
+  top: 230px;
+  left: 141px;
+}
+.portfolio .ten {
+  position: relative;
+  top: -230px;
+  left: 506px;
+}
+.portfolio .eleven {
+  position: relative;
+  top: -230px;
+  right: -474px;
+}
+.portfolio .five {
+  position: relative;
+  top: 90px;
+  left: 110px;
 }
 .testimonials {
   width: 1179px;
@@ -366,8 +381,8 @@ button {
 
 .testimonials h1 {
   font-family: 'poppins', sans-serif;
-  font-weight: 600;
-  font-size: 50px;
+  font-weight: bolder;
+  font-size: 39px;
   line-height: 70px;
   color: #1e266d;
   padding-bottom: 46px;
@@ -397,14 +412,15 @@ button {
 }
 
 .testimonials img {
-  margin-top: 80px;
+  margin-top: 86px;
 }
 .card-1 img {
-  margin-top: 50px;
+  margin-top: 56px;
 }
 .cards p:first-child {
   line-height: 32px;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 16px;
   color: #455880;
   padding-left: 45px;
   padding-top: 40px;
@@ -413,8 +429,8 @@ button {
 .cards h3 {
   width: 268px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 25px;
+  font-weight: 800;
+  font-size: 20px;
   line-height: 28px;
   color: #1e266d;
   margin: auto;
@@ -425,7 +441,7 @@ button {
   font-size: 18px;
   font-weight: 550;
   line-height: 32px;
-  padding: 7px 0 0 0;
+  padding: 0px 0 0 0;
   color: #455880;
 }
 .cta {
@@ -451,7 +467,7 @@ button {
 }
 .cta .left {
   position: absolute;
-  top: 4610px;
+  top: 4585px;
   left: 1143.72px;
 }
 .cta span {
@@ -475,6 +491,9 @@ button {
   font-size: 16px;
   line-height: 12px;
   color: #455880;
+}
+.left button + p {
+  color: #dfe0eb;
 }
 footer {
   width: 1600px;
@@ -503,8 +522,8 @@ footer .flex {
 }
 .digits p {
   font-family: 'Poppins' sans-serif;
-  font-size: 18px;
-  font-weight: 550;
+  font-size: 20px;
+  font-weight: 500;
   line-height: 26px;
   color: #455880;
 }
@@ -524,8 +543,8 @@ footer .flex {
   padding-bottom: 10px;
 }
 .pages a {
-  font-size: 18px;
-  font-weight: 550;
+  font-size: 20px;
+  font-weight: 500;
   color: #455880;
 }
 .demos {
@@ -544,8 +563,8 @@ footer .flex {
   padding-bottom: 10px;
 }
 .demos a {
-  font-size: 18px;
-  font-weight: 550;
+  font-size: 20px;
+  font-weight: 500;
   color: #455880;
 }
 .resources {
@@ -567,8 +586,8 @@ footer .flex {
   margin-bottom: 12px;
 }
 .resources p a {
-  font-size: 18px;
-  font-weight: 550;
+  font-size: 20px;
+  font-weight: 500;
   color: #455880;
 }
 .bottom {
@@ -580,23 +599,31 @@ footer .flex {
 }
 .bottom .left {
   margin-top: 53px;
+  width: 500px;
+  text-align: left;
 }
 .bottom .right {
   margin-top: 53px;
   display: flex;
   flex: row;
   justify-content: right;
-  width: 583px;
+  width: 700px;
   height: 38px;
-  margin-left: 400px;
+  margin-left: 675px;
   margin-bottom: 50px;
+}
+.bottom .left p {
+  padding-left: 0;
 }
 .bottom p {
   font-family: 'Poppins', sans-serif;
-  font-family: 450;
-  font-size: 14px;
+  font-weight: 550;
+  font-size: 13px;
   color: #455880;
   padding-left: 20px;
+}
+.right p:first-child {
+  padding-left: 50px;
 }
 @media only screen and (max-width: 425px) {
   header {
