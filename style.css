@@ -81,7 +81,7 @@ button {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 56px;
+  font-size: 47px;
   line-height: 62px;
   text-align: center;
   color: #1e266d;
@@ -219,7 +219,7 @@ button {
   z-index: -1;
 }
 .about-1 .left {
-  flex: 40%;
+  /* flex: 40%; */
   margin-top: -100px;
 }
 .about-1 .right {
@@ -253,7 +253,7 @@ button {
   display: flex;
 }
 .right div img {
-  float: left;
+  /* float: left; */
   padding-right: 47px;
 }
 
@@ -625,7 +625,10 @@ footer .flex {
 .right p:first-child {
   padding-left: 50px;
 }
-@media only screen and (max-width: 425px) {
+.absolute {
+  display: none;
+}
+@media only screen and (max-width: 430px) {
   header {
     width: 100vw;
     height: 82px;
@@ -634,189 +637,371 @@ footer .flex {
     display: none;
   }
   header .logo {
-    margin-left: 10px;
+    margin-left: 50px;
   }
   .contact {
-    margin-right: 30px;
+    margin-right: 50px;
   }
   .contact h3 {
     display: none;
   }
   .hero {
-    width: 100%;
-    height: 900px;
+    width: 100vw;
+    height: 620px;
   }
   .hero h1 {
-    font-size: 40px;
+    font-size: 30px;
     padding-top: 20px;
-    padding-left: 5px;
+    padding-left: auto;
   }
   .hero p {
-    margin-top: 50px;
+    padding-top: 50px;
   }
   .btn {
     display: block;
   }
   .btn .btn-1 {
-    position: absolute;
-    width: 120px;
-    left: -500px;
+    position: relative;
+    width: 190px;
+    top: 30px;
+    left: -493px;
   }
   .btn-2 {
     position: absolute;
     width: 100px;
-    left: 70px;
-    top: 550px;
+    left: 90px;
+    top: 430px;
   }
   .btn + img {
-    left: 5px;
-    width: 370px;
-    margin-top: -40px;
+    position: initial;
+    width: 100%;
+    margin: auto;
+    padding-left: 15px;
   }
   .logo {
     width: 100%;
     height: 300px;
   }
+  .logo h3 {
+    font-size: 13px;
+    margin-top: -100px;
+  }
   .logos {
-    width: 340px;
+    width: 350px;
     display: grid;
     grid-template-columns: 180px 180px;
-    margin: 20px 0 0px 10px;
-    padding-right: 30px;
+    margin: 10px 0 0px 38px;
+    padding-right: 0px;
     grid-template-rows: 80px 80px 80px 80px;
   }
   .disney {
-    margin-left: 90px;
+    margin-left: -10px;
+  }
+  .figma {
+    margin-left: -12px;
+  }
+  .cinemax {
+    margin-left: -20px;
   }
   .about {
     width: 100%;
-    /* margin-top: 350px; */
-    height: 1300px;
+    height: 2000px;
+    margin-top: 120px;
   }
   .about h1 {
     width: 350px;
     margin: auto;
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 30px;
+    line-height: 40px;
   }
   .about-1 {
     display: block;
+    margin-left: 5px;
+    margin-bottom: 100px;
+  }
+  .about .left {
+    width: 100vw;
   }
   .about .left img {
-    width: 365px;
-    /* height: 700px; */
-    margin-bottom: 0;
+    position: initial;
+    width: 405px;
+    height: 600px;
+    padding: auto;
+    border: 0;
+  }
+  .rectangle {
+    display: none;
+  }
+  .man-2 {
+    margin-top: -170px;
+    padding-left: 15px;
+  }
+  .ellipse {
+    display: none;
+  }
+  .vector {
+    display: none;
+  }
+  .man-1 {
+    padding-left: 25px;
+    margin-top: -280px;
   }
   .about .right {
-    margin-top: -200px;
+    position: initial;
+    margin-top: 400px;
     margin-left: 5px;
+  }
+  .right h4 {
+    padding-bottom: 0px;
+    padding-top: 20px;
   }
   .about .right p {
     /* padding-right: 10px; */
     font-size: 16px;
     width: 275px;
+    height: 100px;
   }
   .right div {
     width: 365px;
+    height: 170px;
+    margin-left: 20px;
+  }
+  .right div img {
+    padding-top: 30px;
   }
   .portfolio {
-    height: 860px;
+    height: 2880px;
+    margin-top: 30px;
   }
   .portfolio h1 {
     width: 100%;
     padding-top: 80px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
   .portfolio p {
     width: 100%;
-    margin-bottom: 200px;
+    font-size: 18px;
+    margin-bottom: 100px;
   }
   .portfolio button {
-    margin-bottom: 100px;
+    margin-bottom: 120px;
+  }
+  .relative {
+    display: none;
+  }
+  .portfolio .one,
+  .portfolio .two,
+  .portfolio .three,
+  .portfolio .four,
+  .portfolio .five,
+  .portfolio .six,
+  .portfolio .seven,
+  .portfolio .eight,
+  .portfolio .nine,
+  .portfolio .ten,
+  .portfolio .eleven {
+    position: initial;
+    width: 100vw;
+    margin: auto;
+  }
+  .portfolio .seven,
+  .portfolio .ten,
+  .portfolio .nine,
+  .portfolio .eight {
+    display: none;
+  }
+  .portfolio .one {
+    padding-left: 7vw;
+  }
+  .portfolio .five {
+    padding-right: 5vw;
+  }
+  .portfolio .six {
+    padding-left: 8vw;
+  }
+  .portfolio .eleven {
+    padding-right: 6vw;
   }
   .testimonials {
     width: 100%;
     height: 1600px;
-    margin-top: 130px;
+    margin-top: 70px;
+  }
+  .testimonials h1 {
+    font-size: 30px;
   }
   .cards {
     display: block;
   }
+  .card-1,
   .card-2,
   .card-3 {
+    margin: auto;
     margin-top: 20px;
-  }
-  .card-2 {
-    margin-left: 0;
-    margin-right: 0;
   }
   .cta {
     width: 100%;
     height: 80vh;
     display: block;
+    margin-top: 50px;
   }
   .cta h1 {
     width: 90%;
+    font-size: 40px;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 40px;
   }
   .cta .left {
-    top: 6000px;
-    left: 50px;
+    position: absolute;
+    margin: auto;
+    top: 504rem;
+    left: 60px;
+  }
+  .absolute {
+    position: absolute;
+    width: 100px;
+    height: 100px;
   }
   .left button {
     margin-left: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
   footer {
     width: 100%;
+    padding-top: 0;
   }
   footer .flex {
     display: block;
   }
   .digits {
-    margin-left: 7px;
+    margin: auto;
+    /* text-align: center; */
     width: 360px;
+    padding-top: 50px;
   }
   .digits p {
     font-size: 23px;
+    width: 340px;
+    margin: auto;
   }
   .digits img {
     margin-left: 140px;
   }
   .pages {
-    position: absolute;
+    position: relative;
     width: 160px;
-    margin-left: 10px;
+    left: -100px;
     margin-bottom: 30px;
     text-align: left;
   }
   .demos {
-    position: relative;
-    right: -200px;
-    top: 0;
+    position: absolute;
+    left: 65vw;
+    top: 528.95rem;
     width: 160px;
-    text-align: right;
+    text-align: left;
     margin: 0;
     /* margin-right: 0; */
   }
   .resources {
-    margin-left: 80px;
-    margin-top: 30px;
+    position: absolute;
+    left: 15vw;
+    top: 546.87rem;
     text-align: center;
+  }
+  footer .flex {
+    height: 800px;
   }
   .bottom {
     width: 100%;
-    margin-top: 20px;
+    height: 150px;
+    margin-top: 0px;
     display: block;
+    margin-bottom: 0;
   }
   .bottom .left {
-    margin-left: 70px;
+    width: 100vw;
+    margin-left: 0px;
+    padding-top: 30px;
+    position: initial;
+    text-align: center;
+    /* bottom: -40px; */
   }
   .bottom .right {
     width: 360px;
+    margin-left: 50px;
+    margin-top: -50px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 380px) {
+  header .logo {
+    margin-left: 26px;
+  }
+  .contact {
+    margin-right: 26px;
+  }
+
+  .btn .btn-1 {
+    left: -520px;
+  }
+  .btn-2 {
+    left: 65px;
+  }
+  .logos {
     margin-left: 15px;
-    margin-top: 30px;
-    justify-content: left;
+  }
+  .man-1 {
+    width: 330px;
+    padding-right: 50px;
+    padding-left: 10px;
+  }
+  .right div {
+    width: 340px;
+    margin-left: 5px;
+  }
+  .right div img {
+    padding-right: 15px;
+  }
+  .portfolio {
+    height: 2610px;
+  }
+  .portfolio p {
+    font-size: 16px;
+  }
+  .testimonials {
+    margin-top: 50px;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    margin-top: 5px;
+    width: 350px;
+  }
+  .testimonials .cards p:first-child {
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+  .cta {
+    margin-top: 10px;
+  }
+  .cta .left {
+    top: 483rem;
+    left: 43px;
+  }
+  .pages {
+    width: 150px;
+    left: -120px;
+  }
+  .demos {
+    width: 150px;
+    top: 508.33rem;
+  }
+  .resources {
+    top: 528rem;
+  }
+  .bottom .right {
+    margin-left: 20px;
   }
 }
