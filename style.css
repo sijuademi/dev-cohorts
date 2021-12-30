@@ -172,7 +172,7 @@ button {
   font-weight: 800;
   font-size: 42px;
   line-height: 70px;
-  /* margin-right: auto; */
+
   margin-left: 35px;
   text-align: center;
   color: #1e266d;
@@ -219,7 +219,6 @@ button {
   z-index: -1;
 }
 .about-1 .left {
-  /* flex: 40%; */
   margin-top: -100px;
 }
 .about-1 .right {
@@ -253,7 +252,6 @@ button {
   display: flex;
 }
 .right div img {
-  /* float: left; */
   padding-right: 47px;
 }
 
@@ -266,7 +264,7 @@ button {
 }
 .portfolio h1 {
   font-family: 'poppins', sans-serif;
-  /* width: 1178px; */
+
   height: 60px;
   font-weight: 700;
   font-size: 40px;
@@ -277,7 +275,6 @@ button {
   margin: 0 auto;
 }
 .portfolio p {
-  /* width: 1178px; */
   height: 96px;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
@@ -628,383 +625,6 @@ footer .flex {
 .absolute {
   display: none;
 }
-@media only screen and (max-width: 430px) {
-  header {
-    width: 100vw;
-    height: 82px;
-  }
-  nav {
-    display: none;
-  }
-  header .logo {
-    margin-left: 50px;
-  }
-  .contact {
-    margin-right: 50px;
-  }
-  .contact h3 {
-    display: none;
-  }
-  .hero {
-    width: 100vw;
-    height: 620px;
-  }
-  .hero h1 {
-    font-size: 30px;
-    padding-top: 20px;
-    padding-left: auto;
-  }
-  .hero p {
-    padding-top: 50px;
-  }
-  .btn {
-    display: block;
-  }
-  .btn .btn-1 {
-    position: relative;
-    width: 190px;
-    top: 30px;
-    left: -493px;
-  }
-  .btn-2 {
-    position: absolute;
-    width: 100px;
-    left: 90px;
-    top: 430px;
-  }
-  .btn + img {
-    position: initial;
-    width: 100%;
-    margin: auto;
-    padding-left: 15px;
-  }
-  .logo {
-    width: 100%;
-    height: 300px;
-  }
-  .logo h3 {
-    font-size: 13px;
-    margin-top: -100px;
-  }
-  .logos {
-    width: 350px;
-    display: grid;
-    grid-template-columns: 180px 180px;
-    margin: 10px 0 0px 38px;
-    padding-right: 0px;
-    grid-template-rows: 80px 80px 80px 80px;
-  }
-  .disney {
-    margin-left: -10px;
-  }
-  .figma {
-    margin-left: -12px;
-  }
-  .cinemax {
-    margin-left: -20px;
-  }
-  .about {
-    width: 100%;
-    height: 2000px;
-    margin-top: 120px;
-  }
-  .about h1 {
-    width: 350px;
-    margin: auto;
-    margin-bottom: 20px;
-    font-size: 30px;
-    line-height: 40px;
-  }
-  .about-1 {
-    display: block;
-    margin-left: 5px;
-    margin-bottom: 100px;
-  }
-  .about .left {
-    width: 100vw;
-  }
-  .about .left img {
-    position: initial;
-    width: 405px;
-    height: 600px;
-    padding: auto;
-    border: 0;
-  }
-  .rectangle {
-    display: none;
-  }
-  .man-2 {
-    margin-top: -170px;
-    padding-left: 15px;
-  }
-  .ellipse {
-    display: none;
-  }
-  .vector {
-    display: none;
-  }
-  .man-1 {
-    padding-left: 25px;
-    margin-top: -280px;
-  }
-  .about .right {
-    position: initial;
-    margin-top: 400px;
-    margin-left: 5px;
-  }
-  .right h4 {
-    padding-bottom: 0px;
-    padding-top: 20px;
-  }
-  .about .right p {
-    /* padding-right: 10px; */
-    font-size: 16px;
-    width: 275px;
-    height: 100px;
-  }
-  .right div {
-    width: 365px;
-    height: 170px;
-    margin-left: 20px;
-  }
-  .right div img {
-    padding-top: 30px;
-  }
-  .portfolio {
-    height: 2880px;
-    margin-top: 30px;
-  }
-  .portfolio h1 {
-    width: 100%;
-    padding-top: 80px;
-    margin-bottom: 100px;
-  }
-  .portfolio p {
-    width: 100%;
-    font-size: 18px;
-    margin-bottom: 100px;
-  }
-  .portfolio button {
-    margin-bottom: 120px;
-  }
-  .relative {
-    display: none;
-  }
-  .portfolio .one,
-  .portfolio .two,
-  .portfolio .three,
-  .portfolio .four,
-  .portfolio .five,
-  .portfolio .six,
-  .portfolio .seven,
-  .portfolio .eight,
-  .portfolio .nine,
-  .portfolio .ten,
-  .portfolio .eleven {
-    position: initial;
-    width: 100vw;
-    margin: auto;
-  }
-  .portfolio .seven,
-  .portfolio .ten,
-  .portfolio .nine,
-  .portfolio .eight {
-    display: none;
-  }
-  .portfolio .one {
-    padding-left: 7vw;
-  }
-  .portfolio .five {
-    padding-right: 5vw;
-  }
-  .portfolio .six {
-    padding-left: 8vw;
-  }
-  .portfolio .eleven {
-    padding-right: 6vw;
-  }
-  .testimonials {
-    width: 100%;
-    height: 100vw;
-    margin-top: 70px;
-  }
-  .testimonials h1 {
-    font-size: 30px;
-  }
-  .cards {
-    display: block;
-  }
-  .card-1,
-  .card-2,
-  .card-3 {
-    margin: auto;
-    margin-top: 20px;
-  }
-  .cta {
-    width: 100%;
-    height: 80vh;
-    display: block;
-    margin-top: 50px;
-  }
-  .cta h1 {
-    width: 90%;
-    font-size: 40px;
-    margin: auto;
-    padding-top: 40px;
-  }
-  .cta .left {
-    position: absolute;
-    margin: auto;
-    top: 504rem;
-    left: 60px;
-  }
-  .absolute {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-  }
-  .left button {
-    margin-left: 20px;
-    margin-bottom: 30px;
-  }
-  footer {
-    width: 100%;
-    padding-top: 0;
-  }
-  footer .flex {
-    display: block;
-  }
-  .digits {
-    margin: auto;
-    /* text-align: center; */
-    width: 360px;
-    padding-top: 50px;
-  }
-  .digits p {
-    font-size: 23px;
-    width: 340px;
-    margin: auto;
-  }
-  .digits img {
-    margin-left: 140px;
-  }
-  .pages {
-    position: relative;
-    width: 160px;
-    left: -100px;
-    margin-bottom: 30px;
-    text-align: left;
-  }
-  .demos {
-    position: absolute;
-    left: 65vw;
-    top: 528.95rem;
-    width: 160px;
-    text-align: left;
-    margin: 0;
-    /* margin-right: 0; */
-  }
-  .resources {
-    position: absolute;
-    left: 15vw;
-    top: 546.87rem;
-    text-align: center;
-  }
-  footer .flex {
-    height: 800px;
-  }
-  .bottom {
-    width: 100%;
-    height: 150px;
-    margin-top: 0px;
-    display: block;
-    margin-bottom: 0;
-  }
-  .bottom .left {
-    width: 100vw;
-    margin-left: 0px;
-    padding-top: 30px;
-    position: initial;
-    text-align: center;
-    /* bottom: -40px; */
-  }
-  .bottom .right {
-    width: 360px;
-    margin-left: 50px;
-    margin-top: -50px;
-    text-align: center;
-  }
-}
-@media only screen and (max-width: 380px) {
-  header .logo {
-    margin-left: 26px;
-  }
-  .contact {
-    margin-right: 26px;
-  }
-
-  .btn .btn-1 {
-    left: -520px;
-  }
-  .btn-2 {
-    left: 65px;
-  }
-  .logos {
-    margin-left: 15px;
-  }
-  .man-1 {
-    width: 330px;
-    padding-right: 50px;
-    padding-left: 10px;
-  }
-  .right div {
-    width: 340px;
-    margin-left: 5px;
-  }
-  .right div img {
-    padding-right: 15px;
-  }
-  .portfolio {
-    height: 2610px;
-  }
-  .portfolio p {
-    font-size: 16px;
-  }
-  .testimonials {
-    margin-top: 50px;
-  }
-  .card-1,
-  .card-2,
-  .card-3 {
-    margin-top: 5px;
-    width: 350px;
-  }
-  .testimonials .cards p:first-child {
-    padding-left: 30px;
-    padding-right: 10px;
-  }
-  .cta {
-    margin-top: 10px;
-  }
-  .cta .left {
-    top: 483rem;
-    left: 43px;
-  }
-  .pages {
-    width: 150px;
-    left: -120px;
-  }
-  .demos {
-    width: 150px;
-    top: 508.33rem;
-  }
-  .resources {
-    top: 528rem;
-  }
-  .bottom .right {
-    margin-left: 20px;
-  }
-}
 @media only screen and (max-width: 900px) and (min-width: 500px) {
   header .logo {
     margin-left: 5rem;
@@ -1145,31 +765,6 @@ footer .flex {
     margin-top: 120px;
     height: 70rem;
   }
-
-  /* .card-1,
-  .card-2,
-  .card-3 {
-    width: 247px;
-  }
-  .card-1 {
-    margin-left: 5px;
-  }
-  .cards p:first-child {
-    font-size: 13px;
-    padding-left: 15px;
-    padding-right: 10px;
-  }
-  .card-2 {
-    margin-left: 8px;
-    margin-right: 8px;
-  }
-  .cards p:last-child {
-    font-size: 15px;
-    font-weight: 550;
-  }
-  .cta {
-    margin-top: 100px;
-  } */
   .cards {
     flex-flow: row wrap;
   }
@@ -1206,7 +801,7 @@ footer .flex {
   .digits {
     width: 300px;
     flex: 100%;
-    /* margin: auto; */
+
     justify-self: center;
     padding-left: 50px;
   }
@@ -1227,13 +822,411 @@ footer .flex {
     width: 250px;
   }
   .bottom .right {
-    width: 400px;
-    margin-left: 0;
+    width: 350px;
+    margin-left: 10px;
+    justify-content: flex-end;
   }
   .bottom .right p {
-    width: 180px;
+    width: 120px;
+    text-align: right;
   }
   .right p:first-child {
+    padding-left: 0px;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  header {
+    width: 100vw;
+    height: 82px;
+  }
+  nav {
+    display: none;
+  }
+  header .logo {
+    margin-left: 50px;
+  }
+  .contact {
+    margin-right: 50px;
+  }
+  .contact h3 {
+    display: none;
+  }
+  .hero {
+    width: 100vw;
+    height: 608px;
+  }
+  .hero h1 {
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-left: auto;
+  }
+  .hero p {
+    padding-top: 40px;
+  }
+  .btn {
+    display: block;
+  }
+  .btn .btn-1 {
+    position: relative;
+    width: 190px;
+    top: 20px;
+    left: -493px;
+  }
+  .btn-2 {
+    position: absolute;
+    width: 100px;
+    left: 90px;
+    top: 420px;
+  }
+  .btn + img {
+    position: initial;
+    width: 100%;
+    margin: auto;
     padding-left: 15px;
+  }
+  .logo {
+    width: 100%;
+    height: 300px;
+  }
+  .logo h3 {
+    font-size: 13px;
+    margin-top: -100px;
+  }
+  .logos {
+    width: 350px;
+    display: grid;
+    grid-template-columns: 180px 180px;
+    margin: 10px 0 0px 38px;
+    padding-right: 0px;
+    grid-template-rows: 80px 80px 80px 80px;
+  }
+  .disney {
+    margin-left: -10px;
+  }
+  .figma {
+    margin-left: -12px;
+  }
+  .cinemax {
+    margin-left: -20px;
+  }
+  .about {
+    width: 100%;
+    height: 2000px;
+    margin-top: 120px;
+  }
+  .about h1 {
+    width: 350px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .about-1 {
+    display: block;
+    margin-left: 5px;
+    margin-bottom: 100px;
+  }
+  .about .left {
+    width: 100vw;
+  }
+  .about .left img {
+    position: initial;
+    width: 425px;
+    height: 600px;
+    padding: auto;
+    border: 0;
+  }
+  .rectangle {
+    display: none;
+  }
+  .woman {
+    margin-top: -70px;
+  }
+  .man-2 {
+    margin-top: -170px;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  .ellipse {
+    display: none;
+  }
+  .vector {
+    display: none;
+  }
+  .man-1 {
+    padding-right: 30px;
+    padding-left: 20px;
+    margin-top: -280px;
+  }
+  .about .right {
+    position: initial;
+    margin: auto;
+    margin-top: 400px;
+  }
+  .right h4 {
+    padding-bottom: 0px;
+    padding-top: 20px;
+  }
+  .about .right p {
+    font-size: 16px;
+    width: 275px;
+    height: 100px;
+  }
+  .right div {
+    width: 365px;
+    height: 170px;
+    margin-left: 20px;
+  }
+  .right div img {
+    padding-top: 30px;
+  }
+  .portfolio {
+    height: 2670px;
+    margin-top: 30px;
+  }
+  .portfolio h1 {
+    width: 100%;
+    font-size: 35px;
+    padding-top: 80px;
+    margin-bottom: 100px;
+  }
+  .portfolio p {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 100px;
+  }
+  .portfolio button {
+    margin-bottom: 120px;
+  }
+  .relative {
+    display: none;
+  }
+  .portfolio .one,
+  .portfolio .two,
+  .portfolio .three,
+  .portfolio .four,
+  .portfolio .five,
+  .portfolio .six,
+  .portfolio .seven,
+  .portfolio .eight,
+  .portfolio .nine,
+  .portfolio .ten,
+  .portfolio .eleven {
+    position: initial;
+    width: 100vw;
+    margin: auto;
+    margin-top: -30px;
+  }
+  .portfolio .seven,
+  .portfolio .ten,
+  .portfolio .nine,
+  .portfolio .eight {
+    display: none;
+  }
+  .portfolio .one {
+    padding-left: 7vw;
+  }
+  .portfolio .five {
+    padding-right: 5vw;
+  }
+  .portfolio .six {
+    padding-left: 8vw;
+  }
+  .portfolio .eleven {
+    padding-right: 6vw;
+  }
+  .testimonials {
+    width: 100%;
+    height: 100rem;
+    margin-top: 70px;
+  }
+  .testimonials h1 {
+    font-size: 30px;
+  }
+  .cards {
+    display: block;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .cta {
+    width: 100%;
+    height: 80vh;
+    display: block;
+    margin-top: 50px;
+  }
+  .cta h1 {
+    width: 77%;
+    font-size: 40px;
+    margin: auto;
+    padding-top: 40px;
+  }
+  .cta .left {
+    position: initial;
+    margin-top: 80px;
+    margin-left: 70px;
+  }
+  .left button {
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+  footer {
+    width: 100%;
+    padding-top: 0;
+  }
+  footer .flex {
+    flex-flow: row wrap;
+  }
+  .digits {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: auto;
+
+    width: unset;
+    padding-top: 50px;
+  }
+  .digits p {
+    font-size: 23px;
+    width: 340px;
+    margin: auto;
+    flex: 100%;
+  }
+  .digits img {
+    margin-left: 140px;
+  }
+  .pages {
+    position: initial;
+    flex: 30%;
+    width: 50px;
+
+    margin-bottom: 30px;
+    margin-left: 0;
+    padding-left: 80px;
+    text-align: left;
+  }
+  .demos {
+    position: initial;
+
+    flex: 30%;
+    padding-left: 50px;
+    text-align: left;
+    margin: 0;
+  }
+  .resources {
+    position: initial;
+    margin: auto;
+
+    text-align: center;
+    width: unset;
+  }
+  footer .flex {
+    height: 800px;
+  }
+  .bottom {
+    width: 100%;
+    height: 150px;
+    margin-top: 0px;
+    display: block;
+    margin-bottom: 0;
+  }
+  .bottom .left {
+    width: 100vw;
+    margin-left: 0px;
+    padding-top: 30px;
+    position: initial;
+    text-align: center;
+  }
+  .bottom .right {
+    width: 360px;
+    margin-left: 50px;
+    margin-top: -50px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 375px) {
+  header .logo {
+    margin-left: 40px;
+  }
+  .contact {
+    margin-right: 40px;
+    margin-left: 0;
+  }
+
+  .btn .btn-1 {
+    left: -520px;
+  }
+  .btn-2 {
+    left: 65px;
+  }
+  .logo h3 {
+    font-size: 18px;
+  }
+  .logos {
+    margin-left: 15px;
+  }
+  .man-1 {
+    width: 330px;
+    padding-right: 50px;
+    padding-left: 10px;
+  }
+  .right div {
+    width: 340px;
+    margin-left: 5px;
+  }
+  .right div img {
+    padding-right: 15px;
+  }
+  .portfolio {
+    height: 2610px;
+  }
+  .portfolio p {
+    font-size: 16px;
+  }
+  .testimonials {
+    margin-top: 50px;
+  }
+  .testimonials h1 {
+    font-size: 28px;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    margin-top: 5px;
+    width: 350px;
+  }
+  .testimonials .cards p:first-child {
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+  .cta {
+    margin-top: 10px;
+  }
+  .cta h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .cta .left {
+    margin-top: 70px;
+    margin-left: 47px;
+  }
+  .pages {
+    padding-left: 70px;
+  }
+  .demos {
+    text-align: right;
+    padding-left: 0;
+    padding-right: 80px;
+  }
+  .resources {
+    top: 528rem;
+  }
+  .bottom .right {
+    margin-left: 20px;
   }
 }
