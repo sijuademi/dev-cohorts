@@ -266,7 +266,7 @@ button {
 }
 .portfolio h1 {
   font-family: 'poppins', sans-serif;
-  width: 1178px;
+  /* width: 1178px; */
   height: 60px;
   font-weight: 700;
   font-size: 40px;
@@ -277,11 +277,11 @@ button {
   margin: 0 auto;
 }
 .portfolio p {
-  width: 1178px;
+  /* width: 1178px; */
   height: 96px;
   font-family: 'Poppins', sans-serif;
-  font-size: 21px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 550;
   line-height: 35px;
   text-align: center;
   color: #455880;
@@ -439,13 +439,13 @@ button {
 .cards p:last-child {
   font-family: Halyard Text;
   font-size: 18px;
-  font-weight: 550;
+  font-weight: 500;
   line-height: 32px;
   padding: 0px 0 0 0;
   color: #455880;
 }
 .cta {
-  width: 1600px;
+  width: 100vw;
   height: 323px;
   background-color: #3751ff;
   margin-top: 150px;
@@ -496,7 +496,7 @@ button {
   color: #dfe0eb;
 }
 footer {
-  width: 1600px;
+  width: 100vw;
   height: 660px;
   padding-top: 124px;
 }
@@ -825,7 +825,7 @@ footer .flex {
   }
   .testimonials {
     width: 100%;
-    height: 1600px;
+    height: 100vw;
     margin-top: 70px;
   }
   .testimonials h1 {
@@ -1003,5 +1003,237 @@ footer .flex {
   }
   .bottom .right {
     margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 900px) and (min-width: 500px) {
+  header .logo {
+    margin-left: 5rem;
+  }
+  .contact {
+    display: none;
+  }
+  nav {
+    margin-left: 50px;
+  }
+  .hero {
+    height: 820px;
+  }
+  .hero h1 {
+    padding-top: 100px;
+  }
+  .hero p {
+    padding-top: 150px;
+  }
+  .hero .btn {
+    margin-left: 210px;
+    margin-top: 100px;
+  }
+  .btn + img {
+    position: initial;
+    width: 100%;
+    padding-left: 30px;
+  }
+  .logo {
+    width: 700px;
+  }
+  .logos {
+    padding-top: 60px;
+    width: 700px;
+    flex-flow: row;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px 30px;
+  }
+  .about {
+    width: 100vw;
+  }
+  .about h1 {
+    width: 85%;
+  }
+  .woman,
+  .man-1,
+  .man-2 {
+    position: initial;
+    margin-left: 0;
+    width: 300px;
+  }
+  .man-2 {
+    width: 430px;
+    margin-left: 5px;
+  }
+  .man-1 {
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 250px;
+  }
+  .about .right div {
+    width: 380px;
+  }
+  .about-1 .right {
+    top: 1670px;
+    left: 360px;
+    width: 380px;
+  }
+  .about .right p {
+    width: 250px;
+    font-size: 14px;
+  }
+  .vector,
+  .ellipse,
+  .rectangle {
+    display: none;
+  }
+  .portfolio {
+    height: 93rem;
+  }
+  .portfolio button {
+    margin-top: 130px;
+  }
+  .relative {
+    display: none;
+  }
+  .portfolio .images {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .one {
+    margin-left: 50px;
+  }
+  .two {
+    margin-right: 15px;
+  }
+  .three {
+    margin-left: 20px;
+    margin-top: -25px;
+  }
+  .four {
+    margin-top: -25px;
+  }
+  .five {
+    margin-left: 33px;
+    margin-top: -20px;
+  }
+  .six {
+    margin-left: 27px;
+    margin-top: -20px;
+  }
+  .eleven {
+    margin-left: 30px;
+    margin-top: -30px;
+  }
+  .portfolio .one,
+  .portfolio .two,
+  .portfolio .three,
+  .portfolio .four,
+  .portfolio .five,
+  .portfolio .six,
+  .portfolio .seven,
+  .portfolio .eight,
+  .portfolio .nine,
+  .portfolio .ten,
+  .portfolio .eleven {
+    position: initial;
+  }
+  .portfolio .seven,
+  .portfolio .ten,
+  .portfolio .nine,
+  .portfolio .eight {
+    display: none;
+  }
+  .testimonials {
+    width: 100vw;
+    margin-top: 120px;
+    height: 70rem;
+  }
+
+  /* .card-1,
+  .card-2,
+  .card-3 {
+    width: 247px;
+  }
+  .card-1 {
+    margin-left: 5px;
+  }
+  .cards p:first-child {
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+  .card-2 {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .cards p:last-child {
+    font-size: 15px;
+    font-weight: 550;
+  }
+  .cta {
+    margin-top: 100px;
+  } */
+  .cards {
+    flex-flow: row wrap;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    width: 350px;
+  }
+  .card-1,
+  .card-3 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .card-3 {
+    margin: auto;
+  }
+  .cta {
+    margin-top: 50px;
+    height: 260px;
+  }
+  .cta h1 {
+    width: 300px;
+    font-size: 35px;
+    margin-left: 50px;
+  }
+  .cta .left {
+    position: initial;
+    margin-top: 80px;
+    margin-right: 70px;
+  }
+  footer .flex {
+    flex-flow: row wrap;
+  }
+  .digits {
+    width: 300px;
+    flex: 100%;
+    /* margin: auto; */
+    justify-self: center;
+    padding-left: 50px;
+  }
+  .pages {
+    flex: 20%;
+    margin-left: 50px;
+  }
+  .demos {
+    flex: 20%;
+  }
+  .resources {
+    flex: 20%;
+  }
+  .bottom {
+    width: 85vw;
+  }
+  .bottom .left p {
+    width: 250px;
+  }
+  .bottom .right {
+    width: 400px;
+    margin-left: 0;
+  }
+  .bottom .right p {
+    width: 180px;
+  }
+  .right p:first-child {
+    padding-left: 15px;
   }
 }
