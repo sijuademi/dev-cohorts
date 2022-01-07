@@ -730,12 +730,18 @@ footer .flex {
   }
 }
 @media only screen and (min-width: 1000px) {
+  header {
+    width: 1060px;
+  }
   header .logo {
     margin-left: 200px;
     margin-right: 0;
   }
+  nav {
+    width: 580px;
+  }
   .links {
-    width: 603px;
+    width: 580px;
   }
   header nav li {
     list-style-type: none;
@@ -755,6 +761,9 @@ footer .flex {
     padding-top: 0px;
     padding-left: 58px;
     margin-right: px;
+  }
+  nav ul {
+    width: 580px;
   }
   .contact {
     display: initial;
@@ -855,130 +864,98 @@ footer .flex {
   .graphic {
     width: 980px;
     margin: auto;
+    /* margin-bottom: 80px; */
+  }
+
+  .logo {
+    width: 100vw;
+    height: 112px;
+    margin: 170px auto 40px auto;
+  }
+  .logo h3 {
+    height: 27px;
+  }
+  .logos {
+    display: flex;
+    justify-content: space-between;
+    width: 1040px;
+    margin-left: 180px;
+    margin-top: 0;
+    height: 112px;
+    padding-top: 40px;
+  }
+  .logos img {
+    height: 34px;
+    width: 110px;
+  }
+  .logos img:nth-child(4) {
+    width: 174px;
+    height: 33px;
+  }
+
+  .about {
+    width: 1219px;
+    height: 932px;
+    margin: auto;
+    margin-top: 160px;
+  }
+  .about h1 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 55px;
+    margin-left: 35px;
+    text-align: center;
+    color: #1e266d;
+    word-spacing: -4px;
+  }
+  .about-1 {
+    display: flex;
+  }
+  .about-1 .left {
+    width: 611px;
+    height: 932px;
+  }
+
+  .woman {
+    width: initial;
+    left: 230px;
+  }
+  .rectangle {
+    left: 540px;
+  }
+  .man-2 {
+    left: 57px;
+  }
+  .ellipse {
+    left: 30px;
+  }
+  .man-1 {
+    left: 270px;
+  }
+  .vector {
+    left: 440px;
+  }
+  .about .right {
+    width: 405px;
+    margin-top: 138px;
+    margin-left: 180px;
+    /* padding-top: 138px; */
+  }
+  .right div {
+    width: 390px;
+    height: 193px;
+    margin-top: 40px;
+    border-bottom: 1px solid rgba(69, 88, 128, 0.2);
+    margin-right: 5px;
+    display: flex;
+  }
+  .right h4 {
+    font-size: 14;
+  }
+  .about .right p {
+    font-size: 14px;
   }
   /*
-.logo {
-  width: 1180px;
-  height: 112px;
-  margin: 200px auto 40px auto;
-}
-.logo h3 {
-  height: 27px;
-  
-}
-.logos {
-  display: flex;
-  justify-content: space-between;
-  width: 1180px;
-  height: 112px;
-  padding-top: 50px;
-}
-.logos img {
-  height: 34px;
-  width: 110px;
-}
-.logos img:nth-child(4) {
-  width: 174px;
-  height: 33px;
-}
-
-.about {
-  width: 1219px;
-  height: 932px;
-  margin: auto;
-  margin-top: 160px;
-}
-.about h1 {
-  font-family: 'Popppins', sans-serif;
-  width: 1200px;
-  height: 120px;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 42px;
-  line-height: 70px;
-
-  margin-left: 35px;
-  text-align: center;
-  color: #1e266d;
-  word-spacing: -4px;
-}
-.about-1 {
-  display: flex;
-}
-.about-1 .left {
-  width: 611px;
-  height: 932px;
-}
-.woman {
-  position: absolute;
-  top: 1420px;
-  left: 407px;
-}
-.rectangle {
-  position: absolute;
-  top: 1895px;
-  left: 713px;
-  z-index: -1;
-}
-.man-2 {
-  position: absolute;
-  top: 1930px;
-  left: 233px;
-}
-.ellipse {
-  position: absolute;
-  top: 2075px;
-  left: 205px;
-  z-index: -1;
-}
-.man-1 {
-  position: absolute;
-  top: 2063px;
-  left: 443px;
-}
-.vector {
-  position: absolute;
-  top: 2285px;
-  left: 611px;
-  z-index: -1;
-}
-.about-1 .left {
-  margin-top: -100px;
-}
-.about-1 .right {
-  position: absolute;
-  top: 1640px;
-  left: 984px;
-}
-.right h4 {
-  padding-bottom: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-  line-height: 27px;
-  height: 59px;
-  color: #1e266d;
-}
-.about .right p {
-  font-family: 'Poppins', sans-serif;
-  width: 300px;
-  height: 134px;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 27px;
-  color: #455880;
-}
-.right div {
-  width: 405px;
-  height: 193px;
-  margin-top: 40px;
-  border-bottom: 1px solid rgba(69, 88, 128, 0.2);
-  margin-right: 5px;
-  display: flex;
-}
-.right div img {
-  padding-right: 47px;
-}
-
 .portfolio {
   width: 100vw;
   background: #fff9ea;
