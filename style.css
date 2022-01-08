@@ -475,7 +475,7 @@ footer .flex {
     color: #1e266d;
   }
   .hero {
-    height: 760px;
+    height: 750px;
   }
   .hero h1 {
     padding-top: 100px;
@@ -493,10 +493,15 @@ footer .flex {
   .btn .btn-2 {
     margin-left: 30px;
   }
+  .graphic {
+    width: 652px;
+    margin: auto;
+  }
   .btn + img {
     width: 96vw;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin: 0;
+    /* margin-left: 2vw; */
+    /* margin-right: 2vw; */
   }
   .logo {
     height: 300px;
