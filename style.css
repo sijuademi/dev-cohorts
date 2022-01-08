@@ -10,7 +10,8 @@ body {
 }
 h1,
 p,
-h3 {
+h3,
+h4 {
   font-family: 'Popppins', sans-serif;
 }
 a {
@@ -158,9 +159,7 @@ nav {
   margin-left: 3vw;
 }
 .right h4 {
-  font-family: 'Poppins', sans-serif;
   font-size: 20px;
-  line-height: 27px;
   height: 40px;
   color: #1e266d;
 }
@@ -803,7 +802,7 @@ footer .flex {
     border: none;
   }
   .hero {
-    height: 860px;
+    height: 850px;
     width: 100vw;
     background: linear-gradient(
       180deg,
@@ -895,7 +894,7 @@ footer .flex {
 
   .about {
     width: 1219px;
-    height: 932px;
+    height: 770px;
     margin: auto;
     margin-top: 160px;
   }
@@ -917,408 +916,426 @@ footer .flex {
   }
 
   .woman {
-    width: initial;
-    left: 230px;
+    width: 360px;
+    top: -40px;
+    left: 260px;
   }
   .rectangle {
-    left: 540px;
+    width: 50px;
+    top: 300px;
+    left: 535px;
   }
   .man-2 {
-    left: 57px;
+    width: 420px;
+    top: 330px;
+    left: 100px;
   }
   .ellipse {
-    left: 30px;
+    width: 90px;
+    top: 460px;
+    left: 80px;
   }
   .man-1 {
-    left: 270px;
+    width: 160px;
+    top: 450px;
+    left: 300px;
   }
   .vector {
+    width: 50px;
+    top: 625px;
     left: 440px;
   }
   .about .right {
-    width: 405px;
-    margin-top: 138px;
-    margin-left: 180px;
+    width: 390px;
+    margin-top: 65px;
+    margin-left: 145px;
     /* padding-top: 138px; */
   }
-  .right div {
-    width: 390px;
-    height: 193px;
+  .about .right div {
+    width: 375px;
+    height: 150px;
     margin-top: 40px;
     border-bottom: 1px solid rgba(69, 88, 128, 0.2);
     margin-right: 5px;
     display: flex;
   }
   .right h4 {
-    font-size: 14;
+    font-size: 16px;
   }
   .about .right p {
-    font-size: 14px;
+    font-size: 15px;
   }
-  /*
-.portfolio {
-  width: 100vw;
-  background: #fff9ea;
-  text-align: center;
-  height: 1012px;
-  margin-top: 150px;
-}
-.portfolio h1 {
-  font-family: 'poppins', sans-serif;
+  .right div img {
+    width: 48px;
+    margin-right: 40px;
+  }
 
-  height: 60px;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 60px;
-  padding-top: 140px;
-  text-align: center;
-  color: #1e266d;
-  margin: 0 auto;
-}
-.portfolio p {
-  height: 96px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  font-weight: 550;
-  line-height: 35px;
-  text-align: center;
-  color: #455880;
-  padding-top: 40px;
-  margin: 60px auto;
-}
-.portfolio button {
-  width: 148px;
-  height: 50px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  line-height: 16px;
-  display: flex;
-  padding-left: 33px;
-  margin: 80px auto 35px auto;
-  align-items: center;
-  text-align: center;
-  color: #ffffff;
-  background: #3751ff;
-  border-radius: 100px;
-}
-.portfolio .images {
-  width: 100vw;
-}
-.relative {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  left: 0px;
-}
-.portfolio .one {
-  position: absolute;
-  left: 0px;
-}
-.portfolio .two {
-  position: relative;
-  left: 210px;
-  top: 115px;
-}
-.portfolio .six {
-  position: relative;
-  top: -35px;
-  left: -96px;
-}
-.portfolio .seven {
-  position: relative;
-  top: -16px;
-  left: -431px;
-}
-.portfolio .six {
-  position: relative;
-  top: -35px;
-  left: -96px;
-}
-.portfolio .three {
-  position: relative;
-  top: 175px;
-  left: 174px;
-}
-.portfolio .eight {
-  position: relative;
-  top: -15px;
-  left: -461px;
-}
-.portfolio .nine {
-  position: relative;
-  top: -15px;
-  left: -498px;
-}
-.portfolio .four {
-  position: relative;
-  top: 230px;
-  left: 141px;
-}
-.portfolio .ten {
-  position: relative;
-  top: -230px;
-  left: 506px;
-}
-.portfolio .eleven {
-  position: relative;
-  top: -230px;
-  right: -474px;
-}
-.portfolio .five {
-  position: relative;
-  top: 90px;
-  left: 110px;
-}
-.testimonials {
-  width: 1179px;
-  height: 583px;
-  margin: auto;
-  margin-top: 210px;
-  text-align: center;
-}
+  .portfolio {
+    width: 100vw;
+    background: #fff9ea;
+    text-align: center;
+    height: 850px;
+    margin-top: 150px;
+  }
+  .portfolio h1 {
+    font-weight: 900;
+    font-size: 35px;
+    padding-top: 120px;
+    text-align: center;
+    color: #1e266d;
+    margin: 0 auto;
+  }
+  .portfolio p {
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    color: #455880;
+    padding-top: 5px;
+  }
+  .portfolio button {
+    width: 130px;
+    height: 43px;
+    font-size: 14px;
+    margin: 30px auto 25px auto;
+    text-align: center;
+    color: #ffffff;
+    background: #3751ff;
+    border-radius: 80px;
+  }
+  .portfolio .images {
+    width: 100vw;
+    position: relative;
+  }
+  .portfolio .seven,
+  .portfolio .ten,
+  .portfolio .nine,
+  .portfolio .eight {
+    display: initial;
+  }
+  .portfolio .seven,
+  .portfolio .one,
+  .portfolio .six {
+    width: 283px;
+  }
+  .portfolio .one {
+    position: absolute;
+    left: 0px;
+    padding: 0;
+  }
+  .portfolio .two {
+    position: absolute;
+    left: 260px;
+    top: 100px;
+    margin: 0;
+    width: 300px;
+  }
+  .portfolio .seven {
+    position: absolute;
+    top: 425px;
+    left: 0px;
+    /* width: 300px; */
+  }
+  .portfolio .six {
+    position: absolute;
+    top: 215px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .portfolio .three {
+    position: absolute;
+    top: 140px;
+    left: 535px;
+    width: 311px;
+    margin: 0;
+  }
+  .portfolio .eight {
+    position: absolute;
+    top: 313px;
+    left: 260px;
+    width: 300px;
+  }
+  .portfolio .nine {
+    position: absolute;
+    top: 358px;
+    left: 535px;
+    width: 311px;
+  }
+  .portfolio .four {
+    position: absolute;
+    top: 205px;
+    left: 823px;
+    width: 290px;
+    margin: 0;
+    padding: 0;
+  }
+  .portfolio .ten {
+    position: absolute;
+    top: 410px;
+    left: 820px;
+    width: 290px;
+  }
+  .portfolio .eleven {
+    position: absolute;
+    top: 290px;
+    left: 1090px;
+    width: 260px;
+    margin: 0;
+    padding: 0;
+  }
+  .portfolio .five {
+    position: absolute;
+    top: 75px;
+    left: 1090px;
+    width: 260px;
+    margin: 0;
+    padding: 0;
+  }
+  .testimonials {
+    /* width: 1179px; */
+    height: 583px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+  }
 
-.testimonials h1 {
-  font-family: 'poppins', sans-serif;
-  font-weight: bolder;
-  font-size: 39px;
-  line-height: 70px;
-  color: #1e266d;
-  padding-bottom: 46px;
-}
-.cards {
-  display: flex;
-  justify-content: space-between;
-}
-.card-1,
-.card-2,
-.card-3 {
-  border: 1px solid rgba(69, 88, 128, 0.2);
-  border-radius: 10px;
-  width: 372px;
-  height: 467px;
-}
-.card-2 {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-.cards p {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
-  color: #455880;
-}
+  .testimonials h1 {
+    font-weight: bolder;
+    font-size: 35px;
+    color: #1e266d;
+    padding-bottom: 46px;
+  }
+  .cards {
+    width: 1058px;
+    display: flex;
+    margin: auto;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    border: 1px solid rgba(69, 88, 128, 0.2);
+    border-radius: 10px;
+    width: 336px;
+    height: 415px;
+    margin: 0;
+  }
+  .card-2 {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .testimonials img {
+    margin: auto;
+    margin-top: 86px;
+    width: 55px;
+  }
+  .card-1 img {
+    margin-top: 56px;
+  }
+  .cards p:first-child {
+    line-height: 28px;
+    font-weight: 550;
+    font-size: 14px;
+    color: #455880;
+    padding-left: 45px;
+    padding-top: 40px;
+    text-align: left;
+  }
+  .cards h3 {
+    width: 268px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1e266d;
+    margin: auto;
+    padding-top: 10px;
+  }
+  .cards p:last-child {
+    font-family: Halyard Text;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0;
+    color: #455880;
+  }
+  .cta {
+    width: 100vw;
+    height: 280px;
+    background-color: #3751ff;
+    margin-top: 55px;
+    display: flex;
+  }
+  .cta h1 {
+    width: unset;
+    height: 120px;
+    font-weight: 550;
+    font-size: 38px;
+    line-height: 50px;
+    color: #ffffff;
+    margin: auto;
+    margin-left: 180px;
+  }
 
-.testimonials img {
-  margin-top: 86px;
-}
-.card-1 img {
-  margin-top: 56px;
-}
-.cards p:first-child {
-  line-height: 32px;
-  font-weight: 600;
-  font-size: 16px;
-  color: #455880;
-  padding-left: 45px;
-  padding-top: 40px;
-  text-align: left;
-}
-.cards h3 {
-  width: 268px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 28px;
-  color: #1e266d;
-  margin: auto;
-  padding-top: 20px;
-}
-.cards p:last-child {
-  font-family: Halyard Text;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 32px;
-  padding: 0px 0 0 0;
-  color: #455880;
-}
-.cta {
-  width: 100vw;
-  height: 323px;
-  background-color: #3751ff;
-  margin-top: 150px;
-  display: flex;
-}
-.cta h1 {
-  width: 1153px;
-  height: 120px;
-  font-weight: 550;
-  font-size: 48px;
-  line-height: 60px;
-  color: #ffffff;
-  margin: auto;
-  margin-left: 205px;
-}
+  .cta .left {
+    margin-top: 95px;
+    margin-right: 165px;
+    /* position: absolute; */
+    /* top: 4585px; */
+    /* left: 1143.72px; */
+  }
 
-.cta .left {
-  position: absolute;
-  top: 4585px;
-  left: 1143.72px;
-}
-
-.left button {
-  width: 245px;
-  height: 56px;
-  border-radius: 56px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  background-color: #ffffff;
-}
-.left button img {
-  margin-left: 25px;
-}
-.left button p {
-  width: 161px;
-  font-weight: 550;
-  font-size: 16px;
-  line-height: 12px;
-  color: #455880;
-}
-.left button + p {
-  color: #dfe0eb;
-}
-footer {
-  width: 100vw;
-  height: 660px;
-  padding-top: 124px;
-}
-footer li {
-  list-style-type: none;
-}
-footer a {
-  text-decoration: none;
-}
-footer .flex {
-  display: flex;
-  flex: column;
-}
-.digits {
-  width: 310px;
-  height: 266px;
-  margin-left: 204px;
-}
-.digits img {
-  width: 70px;
-  height: 26px;
-  margin-bottom: 34px;
-}
-.digits p {
-  font-family: 'Poppins' sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 26px;
-  color: #455880;
-}
-.pages {
-  width: 212px;
-  height: 261px;
-  margin-left: 184px;
-}
-.pages h3 {
-  font-weight: 500;
-  font-size: 22px;
-  color: #1e266d;
-  margin-bottom: 22px;
-}
-.pages li {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.pages a {
-  font-size: 20px;
-  font-weight: 500;
-  color: #455880;
-}
-.demos {
-  width: 212px;
-  height: 261px;
-  margin-left: 15px;
-}
-.demos h3 {
-  font-weight: 500px;
-  font-size: 22px;
-  color: #1e266d;
-  margin-bottom: 22px;
-}
-.demos li {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.demos a {
-  font-size: 20px;
-  font-weight: 500;
-  color: #455880;
-}
-.resources {
-  width: 217px;
-  height: 261px;
-  margin-left: 34px;
-}
-.resources h3 {
-  font-weight: 550px;
-  font-size: 22px;
-  color: #1e266d;
-  margin-bottom: 22px;
-}
-.resources img {
-  padding-right: 21px;
-  margin-bottom: 22px;
-}
-.resources p {
-  margin-bottom: 12px;
-}
-.resources p a {
-  font-size: 20px;
-  font-weight: 500;
-  color: #455880;
-}
-.bottom {
-  width: 1184px;
-  display: flex;
-  margin: auto;
-  margin-top: 77px;
-  border-top: 1px solid rgba(135, 146, 161, 0.08);
-}
-.bottom .left {
-  margin-top: 53px;
-  width: 500px;
-  text-align: left;
-}
-.bottom .right {
-  margin-top: 53px;
-  display: flex;
-  flex: row;
-  justify-content: right;
-  width: 700px;
-  height: 38px;
-  margin-left: 675px;
-  margin-bottom: 50px;
-}
-.bottom .left p {
-  padding-left: 0;
-}
-.bottom p {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 550;
-  font-size: 13px;
-  color: #455880;
-  padding-left: 20px;
-}
-.right p:first-child {
-  padding-left: 50px;
-}
-.absolute {
-  display: none;
-} */
+  .left button {
+    width: 230px;
+    height: 48px;
+    border-radius: 56px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+  }
+  .left button img {
+    margin-left: 25px;
+  }
+  .left button p {
+    width: 161px;
+    font-weight: 550;
+    font-size: 14px;
+    color: #455880;
+  }
+  .left button + p {
+    color: #dfe0eb;
+    font-size: 13px;
+  }
+  footer {
+    width: 100vw;
+    height: 660px;
+    padding-top: 124px;
+  }
+  footer li {
+    list-style-type: none;
+  }
+  footer a {
+    text-decoration: none;
+  }
+  footer .flex {
+    display: flex;
+    flex: column;
+  }
+  .digits {
+    width: 310px;
+    height: 266px;
+    margin-left: 204px;
+  }
+  .digits img {
+    width: 70px;
+    height: 26px;
+    margin-bottom: 34px;
+  }
+  .digits p {
+    font-family: 'Poppins' sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #455880;
+  }
+  .pages {
+    width: 212px;
+    height: 261px;
+    margin-left: 184px;
+  }
+  .pages h3 {
+    font-weight: 500;
+    font-size: 22px;
+    color: #1e266d;
+    margin-bottom: 22px;
+  }
+  .pages li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .pages a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #455880;
+  }
+  .demos {
+    width: 212px;
+    height: 261px;
+    margin-left: 15px;
+  }
+  .demos h3 {
+    font-weight: 500px;
+    font-size: 22px;
+    color: #1e266d;
+    margin-bottom: 22px;
+  }
+  .demos li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .demos a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #455880;
+  }
+  .resources {
+    width: 217px;
+    height: 261px;
+    margin-left: 34px;
+  }
+  .resources h3 {
+    font-weight: 550px;
+    font-size: 22px;
+    color: #1e266d;
+    margin-bottom: 22px;
+  }
+  .resources img {
+    padding-right: 21px;
+    margin-bottom: 22px;
+  }
+  .resources p {
+    margin-bottom: 12px;
+  }
+  .resources p a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #455880;
+  }
+  .bottom {
+    width: 1184px;
+    display: flex;
+    margin: auto;
+    margin-top: 77px;
+    border-top: 1px solid rgba(135, 146, 161, 0.08);
+  }
+  .bottom .left {
+    margin-top: 53px;
+    width: 500px;
+    text-align: left;
+  }
+  .bottom .right {
+    margin-top: 53px;
+    display: flex;
+    flex: row;
+    justify-content: right;
+    width: 700px;
+    height: 38px;
+    margin-left: 675px;
+    margin-bottom: 50px;
+  }
+  .bottom .left p {
+    padding-left: 0;
+  }
+  .bottom p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 13px;
+    color: #455880;
+    padding-left: 20px;
+  }
+  .right p:first-child {
+    padding-left: 50px;
+  }
+  .absolute {
+    display: none;
+  }
 }
